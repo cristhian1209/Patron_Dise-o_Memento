@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UmlPatronMemento">
+  <logicalClassDesignerModelMoniker Id="c1fa3f84-50d8-4b6a-becb-cf19c9c4a9e4" />
+  <nestedChildShapes>
+    <classShape Id="d7fba1d0-722b-4c53-a8c7-02b8ebfffbc1" absoluteBounds="7.375, 1.125, 2.375, 1.6683043545484542" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="0644beca-ad8a-495d-bd17-449c03fadafa" LastKnownName="GestorMarcadores" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="e6354a3f-828f-4196-8964-9602a886ed82" absoluteBounds="7.3900000000000006, 1.6403356393178306, 2.3449999999999998, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="5b33e824-545c-4683-9a88-dacf0996e1d2" absoluteBounds="7.3900000000000006, 2.0116637519001959, 2.3449999999999998, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e8b61d81-3794-4319-b6de-cf289db4b9b5" absoluteBounds="0.5, 1.125, 2.625, 1.8284605995814007" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="fc6df566-154a-477d-bfbc-2421628b55d8" LastKnownName="Libro" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="05adcb67-d340-4f95-9f70-461a90c85c44" absoluteBounds="0.51500000000000057, 1.6403356393178306, 2.5949999999999998, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="ecb1d4ce-049e-427e-9bb0-8b0247ce4e28" absoluteBounds="0.51500000000000057, 2.0116637519001959, 2.5949999999999998, 0.84179684768120455" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dc794a42-e969-4041-9437-992e42d9cbdc" absoluteBounds="3.625, 1.125, 2.5, 1.6683043545484537" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="572a5cad-9917-4268-a4f2-54729847a0c0" LastKnownName="Memento" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="ad49cd8a-dbe1-4e64-8373-dc7259e4a5ca" absoluteBounds="3.6400000000000006, 1.6403356393178306, 2.4699999999999998, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="6b8eee4d-6bec-471c-9825-4e58ecd93538" absoluteBounds="3.6400000000000006, 2.0116637519001959, 2.4699999999999998, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

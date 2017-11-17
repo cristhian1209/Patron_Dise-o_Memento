@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPatronMemento", "AppPatronMemento\AppPatronMemento.csproj", "{F478DEFD-7F02-4FE4-9DCB-A8DD58F52E27}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Modelado", "Modelado\Modelado.modelproj", "{B1FD57FA-53E1-4722-B860-3536E8E2FB0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F478DEFD-7F02-4FE4-9DCB-A8DD58F52E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F478DEFD-7F02-4FE4-9DCB-A8DD58F52E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F478DEFD-7F02-4FE4-9DCB-A8DD58F52E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F478DEFD-7F02-4FE4-9DCB-A8DD58F52E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FD57FA-53E1-4722-B860-3536E8E2FB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FD57FA-53E1-4722-B860-3536E8E2FB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FD57FA-53E1-4722-B860-3536E8E2FB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FD57FA-53E1-4722-B860-3536E8E2FB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

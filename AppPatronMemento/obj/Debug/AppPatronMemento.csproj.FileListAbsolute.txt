@@ -1,0 +1,6 @@
+D:\Proyecto Patrones\PatronMemento\AppPatronMemento\bin\Debug\AppPatronMemento.exe.config
+D:\Proyecto Patrones\PatronMemento\AppPatronMemento\bin\Debug\AppPatronMemento.exe
+D:\Proyecto Patrones\PatronMemento\AppPatronMemento\bin\Debug\AppPatronMemento.pdb
+D:\Proyecto Patrones\PatronMemento\AppPatronMemento\obj\Debug\AppPatronMemento.csprojResolveAssemblyReference.cache
+D:\Proyecto Patrones\PatronMemento\AppPatronMemento\obj\Debug\AppPatronMemento.exe
+D:\Proyecto Patrones\PatronMemento\AppPatronMemento\obj\Debug\AppPatronMemento.pdb

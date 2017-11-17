@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="c1fa3f84-50d8-4b6a-becb-cf19c9c4a9e4" name="UmlPatronMemento" linkedPackageId="b7331fee-8ac8-41bc-a297-72141dc79389" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="aa775b95-aadf-48a3-875f-e09aca0ea0d6">
+      <profileInstance Id="55971ef5-d365-413f-b227-a152cb00f937" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="90ba8306-d77d-40b1-be16-ca53674bbc17">
+      <profileInstance Id="395e4f25-093d-49e9-9747-f040efd33b44" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e0d83295-3e1d-446e-9caa-119ad1c0fddc">
+      <profileInstance Id="1234756d-5faa-4aad-825d-f69dbb573fd5" name="CSharpProfile">
+        <elementDefinition Id="11003dea-180b-4c52-b887-b4ee699d1f38" />
+      </profileInstance>
+      <elementDefinition Id="91f28dd6-cf9c-433e-b494-e6bd531f1a3f" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0644beca-ad8a-495d-bd17-449c03fadafa" name="GestorMarcadores" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="a7094fc6-20d1-4b50-a3b0-a994eeb47641" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DGestorMarcadores" tag="ViewCode">
+            <elementDefinition Id="15ac704d-f9e9-4b66-8269-15b15405576f" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="6866f95b-67c5-4c89-9d9d-fbeccb76aa25" name="class" profile="CSharpProfile">
+            <elementDefinition Id="1b1caecd-9c32-438b-b216-4776b7c34e35" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9752e2f9-af49-4ff6-9d52-10026681e182">
+                <propertyInstance Id="84083f42-2b3a-4262-9fa7-81a219b6ab2d" name="ClrAttributes">
+                  <elementDefinition Id="2cd0723f-bf69-48c9-9ee5-99ed33b41b45" />
+                </propertyInstance>
+                <elementDefinition Id="691ca65e-8116-40d6-95cd-1266918b7865" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="dd34ba94-598e-46de-9217-42fa0221f67e">
+                <propertyInstance Id="01ce8532-0f68-418b-ae8d-0aa185d4585e" name="IsPartial" value="false">
+                  <elementDefinition Id="17b56620-185f-4b71-808b-77598937b6ec" />
+                </propertyInstance>
+                <elementDefinition Id="4f5a1139-dfe4-4846-a636-0e77eb6c4050" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="8be57890-d955-4235-a6c2-0bbbc91def36">
+                <propertyInstance Id="7eae685e-7138-4c11-ac0d-a90282de3d94" name="IsStatic" value="False">
+                  <elementDefinition Id="21f5af2b-5936-434c-adbf-2a55ce54e296" />
+                </propertyInstance>
+                <elementDefinition Id="5ecb6a95-71df-47b6-ad56-cc7102e203c1" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="494cabb5-f3f1-48a7-92f0-218b028cae6c">
+                <propertyInstance Id="832c2578-d113-4fce-a136-2f4ea79ba1ed" name="IsUnsafe" value="false">
+                  <elementDefinition Id="9484c6c5-e887-49e3-8da6-39ec0ffcad63" />
+                </propertyInstance>
+                <elementDefinition Id="4faa25f5-6cd8-4f23-befa-fb71526e14c5" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="578d5ed1-72a6-4f1a-ab20-aed0ea578247">
+                <propertyInstance Id="f9d4a3b2-5161-4aaa-b054-65d976e3a0e9" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="bf0a7744-979b-4cbe-9c65-279212812d04" />
+                </propertyInstance>
+                <elementDefinition Id="96345f70-639f-45f3-815d-5b3263fbffee" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="f1c22c30-8be0-498a-8b56-89ec9472e749" />
+        <ownedAttributesInternal>
+          <property Id="b9bf1ea6-b453-40bb-af3e-6ca2d34c901a" name="marcadores" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="55732074-d1f3-4c6b-b574-9d55c4af2357" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DGestorMarcadores Member%3Dmarcadores" tag="ViewCode">
+                <elementDefinition Id="02b197ec-0821-4761-84ac-1c67c9695aa6" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b04ae5bc-fa3d-4ffa-9381-14663dce4baf" name="field" profile="CSharpProfile">
+                <elementDefinition Id="928d4b0f-b6d4-45ec-82bf-64d9f90f7028" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="63f7d0e9-45aa-45ab-86c7-f1d7aaaef3c6">
+                    <propertyInstance Id="ff345ce3-436b-48d0-9e7f-14ae1124b9e2" name="ClrAttributes">
+                      <elementDefinition Id="39266b7c-53c5-4f3c-ac0e-4a1b2ed445c5" />
+                    </propertyInstance>
+                    <elementDefinition Id="b139ecb1-2d96-4193-ba19-410ef7fe8559" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c3b80e31-9b06-4968-bee7-ea1885877f01">
+                    <propertyInstance Id="07336499-b227-4052-94be-76b869a51f28" name="IsConst" value="false">
+                      <elementDefinition Id="bd49d0ec-523d-4e88-b58f-d5f7b9cb9087" />
+                    </propertyInstance>
+                    <elementDefinition Id="32963782-79f8-4b0e-8862-cd40ef808820" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="85b592e2-4f57-4cdc-8431-f0f6669ec778">
+                    <propertyInstance Id="912e4186-d659-49c7-b558-15dbf0e23a19" name="IsNullable" value="false">
+                      <elementDefinition Id="0c52221a-844b-4402-968a-5d87036ce9de" />
+                    </propertyInstance>
+                    <elementDefinition Id="7c9c7c67-65b4-4735-93c7-731e0f65fd9a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="39c083ab-4dc8-49e7-b3a6-6ef35f86509f">
+                    <propertyInstance Id="b41cb336-79af-47c2-8667-9dffe480bf5c" name="IsVolatile" value="false">
+                      <elementDefinition Id="3c2d1c73-0dde-4102-aaf9-b5c730958637" />
+                    </propertyInstance>
+                    <elementDefinition Id="2b7369c5-0bfd-4f93-bd20-14a7dc921cdf" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9c102ec4-a44a-4a07-bdd0-770b41c646f2">
+                    <propertyInstance Id="760b8b35-491f-4e03-830a-3523e36a2116" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ecea3885-a617-484a-90fe-00425bd50d2c" />
+                    </propertyInstance>
+                    <elementDefinition Id="f1c773a0-5c68-46c1-acf7-175c25549233" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="405be31a-473f-47fc-84df-e2d9beb15e3e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e18c4974-93f3-485a-a3ce-91273127f006" LastKnownName="List&lt;Memento‎&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="cf7782e5-c160-440c-aace-57a0066df5ca" name="addPosicionMarcador" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="1fbeee7a-affb-4b1e-910c-4a4ebf8480d6" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DGestorMarcadores Member%3D(Name%3DaddPosicionMarcador OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento)])" tag="ViewCode">
+                <elementDefinition Id="f53f341d-a7cc-418e-889d-954b846c354f" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="4c019eb1-82b1-498e-907d-5019227c0a24" name="method" profile="CSharpProfile">
+                <elementDefinition Id="f83c7f3a-840e-41e8-88a9-68aff02e704f" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="884906ec-c857-428e-b756-c24f1546ba0a">
+                    <propertyInstance Id="acedb047-8120-4349-8f7b-e8023d32c97e" name="ClrAttributes">
+                      <elementDefinition Id="2af6e3c2-ae63-4731-ade6-571ec2d26444" />
+                    </propertyInstance>
+                    <elementDefinition Id="1f6c7d19-8d1b-4a0f-b05c-dded4c0f8ecd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="80af148c-555b-46ec-8e67-88a0c959ef7b">
+                    <propertyInstance Id="bba95a9a-5c9f-4c21-b75f-57b324a14b33" name="IsPartial" value="false">
+                      <elementDefinition Id="dc7da324-3aa5-4ceb-8cac-6a81ab1194de" />
+                    </propertyInstance>
+                    <elementDefinition Id="38db19a0-0214-4cbf-a8a5-da8a642febbc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b70b9b70-964c-4a3d-af48-4d58e08de758">
+                    <propertyInstance Id="c8471257-5ee2-4314-b04c-32adcb6f1fc0" name="IsUnsafe" value="false">
+                      <elementDefinition Id="5e30e8ec-e8b9-4d3c-8dcc-41fafbccd711" />
+                    </propertyInstance>
+                    <elementDefinition Id="07ea15a8-e370-4e6f-bc6b-c8ed3c8909d0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="38b7de41-8eba-4525-99bc-80e3e28dc0d8">
+                    <propertyInstance Id="ee545c05-c0a7-4cee-93c2-e7069f4edafb" name="Inheritance" value="none">
+                      <elementDefinition Id="e8b350eb-e58d-4d02-ae6e-fa2d3e24fa53" />
+                    </propertyInstance>
+                    <elementDefinition Id="a9e65a09-a19d-45ed-8be3-2f81991584c7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="85175934-02d5-47da-863d-19a58a20bf2a">
+                    <propertyInstance Id="c5f997ac-4578-4e7f-9e18-ed77b2ddbb49" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="fe1a2b87-fac0-4c7f-afe9-23267e62d66d" />
+                    </propertyInstance>
+                    <elementDefinition Id="b5495fcd-869c-4e2f-8191-fb4eae806f84" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="27ef0633-0b0a-4397-9052-bc31aaba74ad">
+                    <propertyInstance Id="f0c266ae-bed9-4e00-97fb-10dead6ab2fe" name="params" value="false">
+                      <elementDefinition Id="aff28366-e75f-4941-bf8d-8a44212bcb4d" />
+                    </propertyInstance>
+                    <elementDefinition Id="5ce513aa-070e-4988-99ec-a942bce41261" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ea569782-31d9-4e4b-9f7e-0fddc11d6f85" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3eac3827-debd-4839-a827-39455ad36d79" name="m" direction="In">
+                  <referencesInternal>
+                    <reference Id="58383cf0-7de2-4e8b-a27c-ac9f149233aa" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DGestorMarcadores Member%3D(Name%3DaddPosicionMarcador OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento)]) ParameterIdentifier%3Dm" tag="ViewCode">
+                      <elementDefinition Id="f4ada543-be4a-4317-9549-2dd210a9a1f0" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="322e0451-9bde-470f-aee0-090b493f8b24" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2bdf11e9-3c6a-4a10-8b49-33af952d2e8e" LastKnownName="Memento" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="1618f9cb-eeb7-4a04-b450-825052dafda8" name="getPosicionMarcador" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="4a543cd7-00ee-4b9a-8164-2eac92bd727d" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DGestorMarcadores Member%3D(Name%3DgetPosicionMarcador OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])" tag="ViewCode">
+                <elementDefinition Id="f0665219-c704-4c19-aa7f-f3be1fc66863" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="487d7304-2c4f-4168-bc4c-b73a986f5930" name="method" profile="CSharpProfile">
+                <elementDefinition Id="10a60288-af1d-46e4-b62a-94d4f2b9d5df" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="846a0d40-93af-4109-b1a0-a60d3873c9f7">
+                    <propertyInstance Id="a2f491d3-0042-48dd-ba4e-2934833cbb20" name="ClrAttributes">
+                      <elementDefinition Id="791e69de-d0d6-43b3-b484-ed7fb7944381" />
+                    </propertyInstance>
+                    <elementDefinition Id="35f3500b-6f77-4f1a-b130-05a68e5eb44b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="11017a29-ad50-45d4-9652-143bb4a661d3">
+                    <propertyInstance Id="b9e760ee-857a-465b-8ad2-c96a6dc5b28c" name="IsPartial" value="false">
+                      <elementDefinition Id="e1696df3-743b-4e02-81b8-62905914e924" />
+                    </propertyInstance>
+                    <elementDefinition Id="1c1ef4cc-ccaa-4684-b2e5-460174bb4936" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bc0b9c37-a21c-446b-b458-ee7f239258e4">
+                    <propertyInstance Id="7cf58b52-a730-4475-91fa-f539a4a7f47f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="8bda08d4-723e-4693-ae24-2ed91526bbf6" />
+                    </propertyInstance>
+                    <elementDefinition Id="a158d8ac-101f-4e26-90aa-0aba8b2f8979" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cc067b7b-c2df-4539-9079-4fb47988f4db">
+                    <propertyInstance Id="6f23baa7-d245-46c0-9027-0a7c3069b252" name="Inheritance" value="none">
+                      <elementDefinition Id="274c5bfe-c910-40a1-af73-c198333e03d4" />
+                    </propertyInstance>
+                    <elementDefinition Id="7bf3840d-bd20-454c-b0f9-103913f59e32" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="39e72fa6-51c5-4717-9f53-2178258e18ad">
+                    <propertyInstance Id="a4370a60-7dee-40d5-ad07-6c8634e8b3b1" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d579f73c-f2d2-4891-b108-8defeeabc6e3" />
+                    </propertyInstance>
+                    <elementDefinition Id="c1729933-4b1b-48d1-9e2d-172218682c3d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3ec598e4-5b54-4171-808f-450d48556e68">
+                    <propertyInstance Id="99480d9d-072f-4b9b-840b-a8836d5a770b" name="params" value="false">
+                      <elementDefinition Id="c4f353c7-33e9-4687-8ff4-47b4b377885f" />
+                    </propertyInstance>
+                    <elementDefinition Id="438cca3f-026f-43d0-b02e-36ea7abc0c70" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="47d82d83-c661-49bf-9390-872383ee938f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9a531c36-7eac-45d7-9029-83f3099417e6" direction="Return">
+                  <elementDefinition Id="3c1a02b4-b0b2-4eba-9a51-52c85f968480" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2bdf11e9-3c6a-4a10-8b49-33af952d2e8e" LastKnownName="Memento" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bcb2e198-4f6d-4bdf-b20a-4b2527c6996d" name="indice" direction="In">
+                  <referencesInternal>
+                    <reference Id="572bf433-d203-4080-967b-7d6f4f64e939" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DGestorMarcadores Member%3D(Name%3DgetPosicionMarcador OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dindice" tag="ViewCode">
+                      <elementDefinition Id="ffb1db5a-3fde-4c7f-a9ad-f0b5c5046e95" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="11e28a23-111e-4f6f-8d93-e72aedda3d88" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6df5c4e0-505e-4866-831b-10d59947aace" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="9f4eb5ca-471c-4345-ae45-ae2aecb9678b" name="GestorMarcadores" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="843c77bd-7840-4376-b6ff-b2edaad04a70" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DGestorMarcadores Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="7e057042-674d-4004-8fb6-5969777c96a6" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0f3b4fc9-0b37-49c6-b37e-83c3ca3c2007" name="method" profile="CSharpProfile">
+                <elementDefinition Id="2c7761ae-62e4-4c4d-b256-a155fc32a5d8" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="82c48291-506d-4ce6-8521-1467630276ef">
+                    <propertyInstance Id="fc9c22e8-fb2b-48b4-948b-5fc1be1659f3" name="ClrAttributes">
+                      <elementDefinition Id="49f36958-ccf6-42d4-b932-025bbae9104a" />
+                    </propertyInstance>
+                    <elementDefinition Id="37e21865-47d5-4a02-b9ff-d92dee7812d6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3034f20e-8266-4aa6-b1d5-ebf1bcc553ac">
+                    <propertyInstance Id="145d443d-675f-4ec3-a7b5-6f12756f8112" name="IsPartial" value="false">
+                      <elementDefinition Id="722dab79-e6c8-47ea-9ebc-ba9759e81200" />
+                    </propertyInstance>
+                    <elementDefinition Id="16624b4e-d261-4b6c-b900-057ca1315d9d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1bf54237-5006-4546-8467-c857f5d435ff">
+                    <propertyInstance Id="b1e84350-cd8a-4fa5-a5e8-007c16b31255" name="IsUnsafe" value="false">
+                      <elementDefinition Id="0a037e56-5a47-4e6c-bc25-0af19c8c8834" />
+                    </propertyInstance>
+                    <elementDefinition Id="9ec26334-45c9-4b13-8684-5706d544d06a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f51dd886-3ecb-4342-af6f-79b0f55fd79a">
+                    <propertyInstance Id="74e6c5a7-1eb3-481a-9f34-fb46e8438500" name="Inheritance" value="none">
+                      <elementDefinition Id="a6981b62-dcc4-4ba8-bb3d-36a5c7d6a34c" />
+                    </propertyInstance>
+                    <elementDefinition Id="9de9bef1-82d1-4b42-bfa0-c8ae9cc8b807" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6a40ffe7-09f0-4359-8b8c-02230611c199">
+                    <propertyInstance Id="d7859f84-ec12-4630-ba53-436bd0600a44" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="82adce0b-25b0-4eda-8041-a62f9c0f5dc6" />
+                    </propertyInstance>
+                    <elementDefinition Id="30c2753a-d449-452a-ab7c-740749b044d7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f9918205-f08f-4728-81fe-70ce6550ae5b">
+                    <propertyInstance Id="ea3df6a6-9261-44f6-853a-a76bbdddf4ce" name="params" value="false">
+                      <elementDefinition Id="31e3b13a-a48e-4aa6-8351-690c71571646" />
+                    </propertyInstance>
+                    <elementDefinition Id="434af3e4-39bf-4c82-b81b-78ffff293c1e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a32ee2f7-0586-43ad-8996-d8480ebf6b7f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="e18c4974-93f3-485a-a3ce-91273127f006" name="List&lt;Memento‎&gt;" isAbstract="false" isLeaf="false" cachedFullName="Modelado::System::Collections::Generic::List&lt;Memento‎&gt;">
+        <elementDefinition Id="8a3308b3-013f-4dc0-8dd3-9f03344f9ce3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2bdf11e9-3c6a-4a10-8b49-33af952d2e8e" name="Memento" isAbstract="false" isLeaf="false" cachedFullName="Modelado::AppPatronMemento::Model::Memento">
+        <elementDefinition Id="766fffeb-2c7c-48c6-93bc-4f8d98781eb3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6df5c4e0-505e-4866-831b-10d59947aace" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fc6df566-154a-477d-bfbc-2421628b55d8" name="Libro" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="869a838a-d525-4765-a4cf-c3d15c315f0f" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DLibro" tag="ViewCode">
+            <elementDefinition Id="2943b454-c82d-4cd8-bd54-3835ad69e51e" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="480faa40-714d-4192-8ad1-0e0fa5a9233a" name="class" profile="CSharpProfile">
+            <elementDefinition Id="ab7a694d-6609-4a58-94c5-9dacdeddb47c" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="dcc124d3-6cf7-49a4-b19c-ab9bbd1bc2c5">
+                <propertyInstance Id="6705c299-4c06-4d34-905d-190b7abaac59" name="ClrAttributes">
+                  <elementDefinition Id="3e29229d-c41a-4bae-9f46-c050a42f95e2" />
+                </propertyInstance>
+                <elementDefinition Id="0e23ddec-546f-4e1b-a091-7f721967e28d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="36343856-14fe-4733-a214-b7720015f100">
+                <propertyInstance Id="0601af42-6a20-4b89-8278-3e867d2468a4" name="IsPartial" value="false">
+                  <elementDefinition Id="195e914a-f5fd-4a5f-894c-75bcb96fc5b0" />
+                </propertyInstance>
+                <elementDefinition Id="97563bb8-5272-45cc-803f-16401d0d8c4a" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="4afcb0ad-451c-40be-93ee-4d9dfe56766c">
+                <propertyInstance Id="1260d9b0-f9c3-4eb3-ad0e-2841febe24c3" name="IsStatic" value="False">
+                  <elementDefinition Id="1d43fb13-d60e-404f-a0ea-cd50be5c8455" />
+                </propertyInstance>
+                <elementDefinition Id="f6f9a5e5-3b3e-4db9-9c63-1b935bac6bf6" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="09c69b79-7045-42dc-866b-367de2a62a68">
+                <propertyInstance Id="6395265d-7639-4c9b-b71c-7d6b61541706" name="IsUnsafe" value="false">
+                  <elementDefinition Id="b85e356d-0ceb-47b3-838b-8e1bfef30dee" />
+                </propertyInstance>
+                <elementDefinition Id="75b1f10d-ccab-4367-afc2-849550a6be1a" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="312d9868-d150-4f84-be43-aad914a63713">
+                <propertyInstance Id="405dd260-5108-4e02-94eb-bf304642e098" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="7dab5418-9028-459d-9d75-9ede393196fd" />
+                </propertyInstance>
+                <elementDefinition Id="a2b9375a-5d28-4322-8db7-209864dbc544" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="10c1ea0c-5167-4d81-ad38-f666c38c0ce2" />
+        <ownedAttributesInternal>
+          <property Id="a58b9557-a752-4e2e-9037-4c28c323c154" name="pagina_actual" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="17fb45a7-c8ae-490b-a474-6e4938d41a66" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DLibro Member%3Dpagina_actual" tag="ViewCode">
+                <elementDefinition Id="54f62caf-551a-4ae3-a516-a2959780aad0" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="985074ea-e169-48a1-a133-b64dd833a6fb" name="field" profile="CSharpProfile">
+                <elementDefinition Id="0290353b-5094-4318-b11f-dca73bc06a28" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="57447e12-2f54-4773-be72-dfcb60b66fb6">
+                    <propertyInstance Id="93f8363b-13a1-4f68-ae97-4baa784e5869" name="ClrAttributes">
+                      <elementDefinition Id="a7e99669-19eb-43c5-b3d9-84e2dbbb3d10" />
+                    </propertyInstance>
+                    <elementDefinition Id="2046bfd2-5d97-4d40-94a3-c335bab43747" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2c19c8ae-102e-4172-896f-cb73bc8e667e">
+                    <propertyInstance Id="2a112a05-62fb-4361-bf07-1beb859e91a9" name="IsConst" value="false">
+                      <elementDefinition Id="c66e78d8-ecb3-498f-ace3-1f7413c84e5e" />
+                    </propertyInstance>
+                    <elementDefinition Id="4827fd12-1473-46bc-8799-cfdf0e1a4dd4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f04b85fe-9bb4-4717-8667-e2f0b853c6e6">
+                    <propertyInstance Id="eaaf5acc-5023-457f-955b-b1e09bfe3730" name="IsNullable" value="false">
+                      <elementDefinition Id="3ed7282d-4cd5-413e-95db-c2615ec2c489" />
+                    </propertyInstance>
+                    <elementDefinition Id="4b74b1b6-6b85-4fc2-b0a0-83519d84555b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="54dfede8-7da0-48e6-8854-ea3194086bfe">
+                    <propertyInstance Id="5292611f-dda1-4833-8d24-115003d48457" name="IsVolatile" value="false">
+                      <elementDefinition Id="d5f7b744-f1c0-4667-858d-24c6e87630da" />
+                    </propertyInstance>
+                    <elementDefinition Id="f7db7b77-de33-45a0-bbe6-9ec90f305c77" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="456048c1-bed0-4819-85cf-4388daa10e83">
+                    <propertyInstance Id="1fe17c3c-d897-419b-87a5-ea35c25d531e" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="aa89b293-3a20-4bf0-b1cc-91ecfd8fbb70" />
+                    </propertyInstance>
+                    <elementDefinition Id="34a6455a-56e7-4b1d-99b3-f32c6af2f860" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="0096e255-439d-4677-953c-142a229ae7b6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6df5c4e0-505e-4866-831b-10d59947aace" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="a91e2fa2-f5f1-43d4-a270-21228d5772d8" name="irPagina" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="ea164e65-b709-4618-95ce-a2e7efb16d33" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DLibro Member%3D(Name%3DirPagina OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])" tag="ViewCode">
+                <elementDefinition Id="e40da97e-7c79-4e9f-998a-df1465324dcd" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="e8edc9d3-0a13-42d2-aeff-6ef6457f9cd3" name="method" profile="CSharpProfile">
+                <elementDefinition Id="faffe6c7-cb93-49ae-b11c-b64ef2915c29" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4e4e516e-5cfa-4776-a1ab-2651d8131a72">
+                    <propertyInstance Id="0b57e0fb-b81e-432b-8d34-b272a8df8b84" name="ClrAttributes">
+                      <elementDefinition Id="3a4ac0f5-c1ce-4201-bc71-bc66e79eae32" />
+                    </propertyInstance>
+                    <elementDefinition Id="e7f9de79-17f4-4f31-8b76-25f51233670f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f6858cae-54de-4813-b813-fcdc80910b4c">
+                    <propertyInstance Id="fd3c8e05-962e-47d0-8456-3bd53e9247f5" name="IsPartial" value="false">
+                      <elementDefinition Id="7af77982-1b29-46ac-a13b-48cb01636955" />
+                    </propertyInstance>
+                    <elementDefinition Id="a2a1a1b9-9bea-4635-b58b-ba4922dd447e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="03b9389a-c08a-40f0-a96e-fbfd91a0e18c">
+                    <propertyInstance Id="a9792f01-b0f4-483b-99d2-4d4be9c2f6f9" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7754682e-4477-43e8-b2b4-44ea04d17daa" />
+                    </propertyInstance>
+                    <elementDefinition Id="86274f05-7c80-42ef-9b9b-78412f47fe25" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9518d838-605d-4455-bf99-b2172eab8284">
+                    <propertyInstance Id="24332340-5114-4c3c-9c7b-c5556e3613f2" name="Inheritance" value="none">
+                      <elementDefinition Id="c593e80a-2893-4eb2-969f-d010232e6833" />
+                    </propertyInstance>
+                    <elementDefinition Id="e2399fbd-da0a-4c77-985e-6e12d91f5213" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="47d58b6e-88c3-4c6b-a48f-ccf08d3ee3c6">
+                    <propertyInstance Id="782d4e90-1e29-4108-a0ae-e7a71750d3bb" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="58dc878c-98ec-4e0c-beb5-2c32a30e4a93" />
+                    </propertyInstance>
+                    <elementDefinition Id="6fe424a1-2940-462a-9993-fde8e9bce54c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="70998de2-d9f3-444b-a623-973507ea9175">
+                    <propertyInstance Id="31a7ac13-4705-49a5-b9cb-6597c6b232f9" name="params" value="false">
+                      <elementDefinition Id="5151f60b-5fb7-4af1-9981-803ad6b07a53" />
+                    </propertyInstance>
+                    <elementDefinition Id="7981cbd3-f8f9-4cd1-8a11-4e2d57c32cf4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="49dd8eb8-f07b-47a9-a774-c425cedc2677" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2d2e3244-c497-4155-ae36-507d24a3525c" name="pagina" direction="In">
+                  <referencesInternal>
+                    <reference Id="fb4d7fde-903f-4975-b65f-907815ded0d1" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DLibro Member%3D(Name%3DirPagina OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dpagina" tag="ViewCode">
+                      <elementDefinition Id="3821055a-8c88-4d3a-85d2-df27dcb63530" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="98624512-1417-4da0-8073-c7bec0419ab2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6df5c4e0-505e-4866-831b-10d59947aace" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="ad05b2d4-c465-496f-9162-529f39bbeba8" name="recuperarPagina" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="37229e48-2fd7-46a2-ace9-08ba4dab7747" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DLibro Member%3D(Name%3DrecuperarPagina OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento)])" tag="ViewCode">
+                <elementDefinition Id="468b26c5-7856-4e6a-87da-1c5bb4885b86" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="5dbb6af7-eb87-4619-a9c8-3ed79b853f0d" name="method" profile="CSharpProfile">
+                <elementDefinition Id="2ab948ba-e978-40f0-9100-6e04a66f3dbe" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="76ff3509-0b48-4337-85cd-7f41d8b48266">
+                    <propertyInstance Id="b848b80d-0847-4282-83a6-be811f4ceea7" name="ClrAttributes">
+                      <elementDefinition Id="fdb755cb-65fa-4fd4-ae20-ced4fd83de26" />
+                    </propertyInstance>
+                    <elementDefinition Id="334ab644-09f3-4996-849b-ea010a3e3fd5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6a40bee7-d9b1-4641-a60f-6a8f12aa7901">
+                    <propertyInstance Id="86163ba5-4851-40bc-9656-181769e1808e" name="IsPartial" value="false">
+                      <elementDefinition Id="05ea5f03-9e9d-4423-b324-1c9bdea7395f" />
+                    </propertyInstance>
+                    <elementDefinition Id="2be99c74-4f65-4bd5-ae77-f1956c57774d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="12af145f-bce6-40a8-9415-539df48bd497">
+                    <propertyInstance Id="462a6540-3217-4e8e-be85-5a0eb6373ebb" name="IsUnsafe" value="false">
+                      <elementDefinition Id="37e4f53d-7d2a-4d25-8255-42a5a204f508" />
+                    </propertyInstance>
+                    <elementDefinition Id="a5c30eba-4b44-4330-bf71-1ea3cc9c919c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="146db314-becd-4b08-969e-37c2b6b5f271">
+                    <propertyInstance Id="52e2d918-2984-40de-bc6b-36cac6db07e8" name="Inheritance" value="none">
+                      <elementDefinition Id="1d36b2a0-f267-4065-8471-29c1b4d64ced" />
+                    </propertyInstance>
+                    <elementDefinition Id="1b60f93b-ba1c-43a5-882e-0210877a0af9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e2087207-c0ad-4b72-b8a7-603e247e05f7">
+                    <propertyInstance Id="f3228e8d-427c-4100-86d5-86a925b81639" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="af1ed3c4-52f3-475b-94e6-dd0d9998ff7a" />
+                    </propertyInstance>
+                    <elementDefinition Id="ec598a70-f51b-429e-9783-293a28d1da09" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d7856b3f-fe3f-4e84-90e0-03d4a4cc341b">
+                    <propertyInstance Id="9068008f-c0a7-4759-81aa-4ce0c44ab41e" name="params" value="false">
+                      <elementDefinition Id="ff2d905c-0c0c-4d57-8890-531e80bf21f7" />
+                    </propertyInstance>
+                    <elementDefinition Id="27c0afd6-c974-46d3-8574-9c46e6e728f2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="c82b52ce-ad59-474e-8c86-91e98b90604d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2415e1a1-b69e-4704-a83b-8c1bbfc4a4a2" name="m" direction="In">
+                  <referencesInternal>
+                    <reference Id="0bb0d4fd-0b69-4d38-9c1a-54c8b6f28b32" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DLibro Member%3D(Name%3DrecuperarPagina OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento)]) ParameterIdentifier%3Dm" tag="ViewCode">
+                      <elementDefinition Id="dd3d8df9-b726-4c2f-bdd9-3884433f2a36" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="3e4b842f-e60e-4ad5-a6e8-2a6f0116dfe8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2bdf11e9-3c6a-4a10-8b49-33af952d2e8e" LastKnownName="Memento" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="b776ee66-1888-4642-9d58-1d357c544f1a" name="Libro" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="5bde63c6-f9b4-425d-9d30-602e389aeb89" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DLibro Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="cc230811-e299-426a-b4a5-d34f5d58c03b" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="287a50a9-d79a-496f-91e2-0902ba5eed50" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b8fc75fa-fffd-4937-a5ee-a826bc5a0cb7" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="45b80862-79fb-42a5-9ab1-cfe74f21397a">
+                    <propertyInstance Id="84172855-f710-4f2c-ada7-1de56069d179" name="ClrAttributes">
+                      <elementDefinition Id="93c717ff-be5c-4fdd-b861-bad4e584982f" />
+                    </propertyInstance>
+                    <elementDefinition Id="78997e42-3d86-410a-8e5d-3036eb1d5e0c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6f49ebab-50df-4dc0-9789-a263082e5355">
+                    <propertyInstance Id="192b9d65-5f9d-453f-97a9-359c84ff0ef1" name="IsPartial" value="false">
+                      <elementDefinition Id="dbd64596-1fb9-4ecc-a3ec-3f5be13949a0" />
+                    </propertyInstance>
+                    <elementDefinition Id="f27a87a9-7a75-479d-8516-160a39da71fb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="57b9c0fb-a7ea-4d1a-b144-9905558ca05f">
+                    <propertyInstance Id="4c62e94b-fdfe-4a1b-a58e-80e63eb90639" name="IsUnsafe" value="false">
+                      <elementDefinition Id="90e0146d-eb2a-4c81-888f-7185bc17e0fa" />
+                    </propertyInstance>
+                    <elementDefinition Id="f19588d3-dbcd-4199-b7eb-c1f148e94062" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b020529f-ac32-4f88-bb03-878e8a01eed0">
+                    <propertyInstance Id="78100316-6991-4f90-9550-5040ce57fb26" name="Inheritance" value="none">
+                      <elementDefinition Id="d191bcf4-812d-4457-826a-3c373ab0b8ea" />
+                    </propertyInstance>
+                    <elementDefinition Id="fbbb3377-ae3d-4ba3-b738-25468176133c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="59977193-23b5-41e4-b85a-6f4a7d1fc7ac">
+                    <propertyInstance Id="24eaad79-a63c-426e-932a-501238546e0b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="3640844f-5399-4336-aab6-c81d1adcd462" />
+                    </propertyInstance>
+                    <elementDefinition Id="72ada739-b0c3-42ab-90c4-00d20e04ad9d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ca746725-4009-4ebf-8fec-9730ff6baa32">
+                    <propertyInstance Id="c163477f-7453-4b13-b4e3-5dd23eb2e542" name="params" value="false">
+                      <elementDefinition Id="f1ea668f-d473-4e2f-8d78-ffb019cc9fbc" />
+                    </propertyInstance>
+                    <elementDefinition Id="e2a34cb8-073f-4996-8340-9204eb1b87a3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="0cc8ea64-cd0f-4fd1-a372-e8341ad0c26d" />
+          </operation>
+          <operation Id="94eed56b-c281-4fea-ae99-de8de8a5109c" name="guardarMarcador" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="96dc66f5-eb2e-4cd7-bd9b-5c1be7231e31" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DLibro Member%3DguardarMarcador" tag="ViewCode">
+                <elementDefinition Id="dc907d10-7230-418d-a3d0-b2d5f90ad82a" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0589aca3-80d5-4465-a037-7e240c386843" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b5194af4-800a-4b25-a355-688ea94df799" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8745be8b-a1ce-4e8a-9a07-98590ed685f7">
+                    <propertyInstance Id="41893118-6339-4afa-b8da-53316f5c6bd3" name="ClrAttributes">
+                      <elementDefinition Id="b33a466f-e54d-4a6f-a915-b28ddefec7e0" />
+                    </propertyInstance>
+                    <elementDefinition Id="1010d4f1-6ddc-4356-8ca0-d3fe9c5960d7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ff73787f-7996-4341-9f74-c335c776f886">
+                    <propertyInstance Id="92415a9f-35f6-448e-830c-a8733b85e7b0" name="IsPartial" value="false">
+                      <elementDefinition Id="7f039915-b49d-49be-bfa3-198061b2d4ed" />
+                    </propertyInstance>
+                    <elementDefinition Id="936fb4ba-501d-4b8b-bc98-4aab63357b77" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f105c1f0-4408-46f1-86fc-47d6ae87ddf8">
+                    <propertyInstance Id="bdf76350-fcb7-4065-b8fd-d9a05ea6df55" name="IsUnsafe" value="false">
+                      <elementDefinition Id="02d18b8e-2411-4244-8752-12b75a122d84" />
+                    </propertyInstance>
+                    <elementDefinition Id="b8ed76e0-5666-4c26-a525-7b709323b16e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5389f61a-df76-40e4-9d6d-516c3fa8e2ae">
+                    <propertyInstance Id="2e9fdb04-4720-44e9-b8e9-3d7d66f4e95c" name="Inheritance" value="none">
+                      <elementDefinition Id="555f9d6d-d87d-4994-acb2-80665b0e3138" />
+                    </propertyInstance>
+                    <elementDefinition Id="1e5718da-f558-4ba0-a779-48ad7f52f6f9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="53390786-ada0-4fc3-a654-99b2e7309cb7">
+                    <propertyInstance Id="79589ea3-b538-4cb0-9111-9322497b11ee" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="42e26bd5-2045-4b98-bea5-642f57c90dce" />
+                    </propertyInstance>
+                    <elementDefinition Id="1b14f625-bacc-48be-a225-759173475fa7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b6848012-7ba0-4a45-9229-3f9ed3fd17d7">
+                    <propertyInstance Id="121ae8a9-84a7-4ecc-a2ce-0f3be8ad6a82" name="params" value="false">
+                      <elementDefinition Id="e1b2ee60-244a-4ffb-9aa4-90fa40f1377b" />
+                    </propertyInstance>
+                    <elementDefinition Id="1261e1e4-9403-4acd-a261-950c1f91bce4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a46711b2-bb99-44a5-8a93-d099e4ff4a55" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="11b63f3d-6ff5-4187-84f0-8193438dae21" direction="Return">
+                  <elementDefinition Id="0d46ef1c-7251-46ae-a915-a45a8654d2ae" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2bdf11e9-3c6a-4a10-8b49-33af952d2e8e" LastKnownName="Memento" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="572a5cad-9917-4268-a4f2-54729847a0c0" name="Memento" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="c0421efc-e3e9-4613-943d-2fa543b5f991" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento" tag="ViewCode">
+            <elementDefinition Id="79badbf4-e984-4087-b745-990bb89b767b" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="e941e88b-cfd3-4736-a91c-e1d51af491b5" name="class" profile="CSharpProfile">
+            <elementDefinition Id="7361d522-1e5b-4e1a-9928-91a44fcb118e" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="14b85949-650d-46a1-8761-74e78661f2a4">
+                <propertyInstance Id="9f6379e0-17f4-4cbb-b9b7-50658cf48fad" name="ClrAttributes">
+                  <elementDefinition Id="d3bcb44c-4980-421a-b4c5-ab2731b5c876" />
+                </propertyInstance>
+                <elementDefinition Id="a2042051-e0af-4156-99e6-a786ec0ba496" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="97dd05ed-9773-46f3-a2e4-f1521eead7d1">
+                <propertyInstance Id="87eca072-8f5d-46cb-b453-43ce0ea92e4b" name="IsPartial" value="false">
+                  <elementDefinition Id="37425d64-05dc-4d27-afd3-2cb1fbeea66d" />
+                </propertyInstance>
+                <elementDefinition Id="b4f1668e-a885-45db-bf74-418cce8a5d04" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="7d7f2b81-1dc6-4b01-96bd-a9dc1e38bc77">
+                <propertyInstance Id="24c83934-a815-4b73-8b6c-e9a32b94ad74" name="IsStatic" value="False">
+                  <elementDefinition Id="b41ed590-ae65-4481-bfbc-d40323a9ec19" />
+                </propertyInstance>
+                <elementDefinition Id="1f801b72-ec81-48bc-87aa-bdaa47fd46a5" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="00b4ea1b-ab05-449f-98a3-c8a19cf5ece3">
+                <propertyInstance Id="e5d1bf50-0ba8-4594-9201-9552ecdc6df7" name="IsUnsafe" value="false">
+                  <elementDefinition Id="77ab6047-e6dd-40cd-b5cb-8c4e71ad3050" />
+                </propertyInstance>
+                <elementDefinition Id="07a73f56-f319-4ce9-a617-ab85d3ebe48e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="456ea98d-285a-41b5-9611-2fc599352fe6">
+                <propertyInstance Id="52c32c1f-fe81-4382-a4ac-be8094146ede" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="ddcb2893-7b6f-4450-a9dc-255023e90078" />
+                </propertyInstance>
+                <elementDefinition Id="29d7a39e-89dc-4a17-858e-83ea81f8280c" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="766fffeb-2c7c-48c6-93bc-4f8d98781eb3" />
+        <ownedAttributesInternal>
+          <property Id="95191fc9-8a5e-45b9-8126-42f0f1d4fbae" name="estado" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="ea937b94-b38a-4525-9f87-ad51e6bb331e" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento Member%3Destado" tag="ViewCode">
+                <elementDefinition Id="10ed2afa-1ab5-4280-a86d-53bf15f100c0" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="efdf44fb-fe87-419e-bea6-f3dad1c66ad0" name="field" profile="CSharpProfile">
+                <elementDefinition Id="8e866ab2-4461-4706-90f6-416e589d06df" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="38e25a00-1e5a-47a6-9fda-76bf4939fe83">
+                    <propertyInstance Id="28f1003c-ccf5-44d7-b1e1-ae98b86eda81" name="ClrAttributes">
+                      <elementDefinition Id="96d8acc7-38cd-4e6d-b7fc-f353410e5361" />
+                    </propertyInstance>
+                    <elementDefinition Id="cb452dd2-ab5e-4615-9382-9be1b3797923" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5a783b22-8bb0-4caa-89f5-7ec42478554a">
+                    <propertyInstance Id="c475d792-6afc-44e5-bbe7-98d0af2e1753" name="IsConst" value="false">
+                      <elementDefinition Id="d5cdc2b1-7d8e-4abd-bdca-9883d03a85f7" />
+                    </propertyInstance>
+                    <elementDefinition Id="dff3bba2-627a-471c-a8b5-4c9f94025179" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7735bb73-d97d-4964-a3a3-d5d891b57081">
+                    <propertyInstance Id="b7f6c930-0272-45d6-a2b7-d4cd8e30480b" name="IsNullable" value="false">
+                      <elementDefinition Id="2d209fef-3677-43c6-9efc-2d189b75d634" />
+                    </propertyInstance>
+                    <elementDefinition Id="0ba9ad90-355d-41de-9a3e-4194aff3e552" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1ff10a42-fecc-45e9-b045-9c9281103dfc">
+                    <propertyInstance Id="6098c437-1c0b-468f-b304-98a5317c41d8" name="IsVolatile" value="false">
+                      <elementDefinition Id="ca2b5826-0048-402e-a736-ee4b5cb753da" />
+                    </propertyInstance>
+                    <elementDefinition Id="6af3ef9f-9134-430c-9225-c20102cf1ac5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="485439e5-8918-4a3c-af1e-f2420301ad57">
+                    <propertyInstance Id="acd56573-255f-4a0b-bc28-7ca5eb518571" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="3b81f7ac-8c8f-4c70-94e9-f3ae17721e54" />
+                    </propertyInstance>
+                    <elementDefinition Id="7a34fcd4-25fe-486c-baa2-198a5873892a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="2536fe81-b775-49d2-90c0-14557ad38c33" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6df5c4e0-505e-4866-831b-10d59947aace" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="8eb7c113-7070-431f-a1ec-cc4f7daa2db0" name="Memento" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="14079b39-cc63-4a3f-bb5b-cdcefeba83fe" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])" tag="ViewCode">
+                <elementDefinition Id="890da9c4-e797-4fda-b41f-befcda41f37e" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="9876bff7-e246-4cfa-b3d9-27d407f25e22" name="method" profile="CSharpProfile">
+                <elementDefinition Id="4cc4c6a3-c4ce-490e-9204-50be503d4fdd" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a2738bbf-2a37-404c-a5a3-421c7070df57">
+                    <propertyInstance Id="ed094873-959d-4fbe-8db9-c67b0585e101" name="ClrAttributes">
+                      <elementDefinition Id="07907c07-a536-41fd-9b49-6ae3967b51f2" />
+                    </propertyInstance>
+                    <elementDefinition Id="a6ec8d09-7ee7-4423-b65c-c0ef37a6b040" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e0e81556-da24-4841-b34d-59cce8dad15b">
+                    <propertyInstance Id="3b5a3b44-a792-4c97-b393-7a698d55bb00" name="IsPartial" value="false">
+                      <elementDefinition Id="f7c9f98e-4038-43d8-935d-ead23bd8d7cc" />
+                    </propertyInstance>
+                    <elementDefinition Id="0c4941dc-b738-4a98-876c-83c9a27ce77d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4e79b4d8-b9bb-499a-abd3-6226ddf3432c">
+                    <propertyInstance Id="cfffa1f0-8e78-44be-adcd-7eb124d12198" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b87c4947-34a9-484e-8d63-b24b9d8f4c25" />
+                    </propertyInstance>
+                    <elementDefinition Id="93b99c8a-0e82-4ccc-b02d-098fe92b318d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="41f7680a-0389-4b44-8ade-419f754f0b64">
+                    <propertyInstance Id="e627ce72-3ea7-4afc-9390-b29001c7e292" name="Inheritance" value="none">
+                      <elementDefinition Id="57980a91-6c32-42bc-b0d2-2eaaa741f251" />
+                    </propertyInstance>
+                    <elementDefinition Id="57159264-0ed4-4c20-b3e1-a026001fae13" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="714124e1-3d36-4ac2-8683-0ee5e9701298">
+                    <propertyInstance Id="0d7e58fe-9321-4a73-b74c-850fc89a353f" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="c888f60e-0ed4-4198-90b2-174e2ed6feeb" />
+                    </propertyInstance>
+                    <elementDefinition Id="8f378938-7361-4e3b-8e8e-c286affc963f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f1c02be0-da0b-4fec-a8e4-9d7b5c8bbfca">
+                    <propertyInstance Id="7779b4bd-cec9-49d9-8cb0-c462d150b711" name="params" value="false">
+                      <elementDefinition Id="cdb59ab8-59d9-4fe9-b14b-a2769685b5bf" />
+                    </propertyInstance>
+                    <elementDefinition Id="2099061c-e424-41f0-b0d7-ddb2cc1e0ff9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="75be7937-5063-4e70-bbfa-d6f484ac698e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3d617c89-38e6-4775-9580-04196ce6150b" name="estado" direction="In">
+                  <referencesInternal>
+                    <reference Id="d16d34ec-0c22-4cb5-b60a-e39b13fd9799" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Destado" tag="ViewCode">
+                      <elementDefinition Id="b7cc5c07-6136-46f9-9dcf-d40f462a5124" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="63c8240e-0146-4acc-afe3-67e77fa1cd3c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6df5c4e0-505e-4866-831b-10d59947aace" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="71b8a9c2-c734-4190-8d64-9b1c6d594bc1" name="setMarcadorPagina" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="0602fe82-c2a7-43f4-b184-1550aa51b8e8" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento Member%3D(Name%3DsetMarcadorPagina OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])" tag="ViewCode">
+                <elementDefinition Id="de3b405f-cf99-49c8-8ffa-9aedfd8daa18" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="dcce0174-edee-4689-ba89-147cb57168b5" name="method" profile="CSharpProfile">
+                <elementDefinition Id="d3396008-7e12-4810-9c51-a66aaed80ae6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3ba613c0-9b97-41a8-a818-6ea94138b6ae">
+                    <propertyInstance Id="71263998-b16c-4f47-a182-4df1a1a850f0" name="ClrAttributes">
+                      <elementDefinition Id="dd29d169-9d0d-462f-a58c-69a215ccefd5" />
+                    </propertyInstance>
+                    <elementDefinition Id="35be9009-0ed3-4b6e-b946-9e60a0ec352d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="95911857-0c7d-4eb7-84c6-dbe1a9f1f2d6">
+                    <propertyInstance Id="d6c2b5aa-5459-4061-93c7-4efc169f2869" name="IsPartial" value="false">
+                      <elementDefinition Id="cdd4592a-ace8-4e52-a034-e72cafc78dfc" />
+                    </propertyInstance>
+                    <elementDefinition Id="6adee359-3236-49c3-b9b5-0972163fe31e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="416f8baa-e170-4c2e-9ec7-2c3eceacdbca">
+                    <propertyInstance Id="c148b0cf-4589-4066-8c1d-5ce725e5c610" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b2949977-b214-4acb-80c5-810c960f66b4" />
+                    </propertyInstance>
+                    <elementDefinition Id="9d6f6ac0-355e-48b3-96c8-0f04a18bf675" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="18fef95c-52e0-4153-bd5f-fcbc777cf59d">
+                    <propertyInstance Id="287e53ff-0325-4f95-8d81-2d99e953da77" name="Inheritance" value="none">
+                      <elementDefinition Id="7b887772-9fa0-40ef-9987-ac658063f0dc" />
+                    </propertyInstance>
+                    <elementDefinition Id="250fab65-df39-4d9c-84f3-93f883369605" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4f4c01dc-a50f-40c3-b0b1-6a1f2445ea4c">
+                    <propertyInstance Id="daa751a6-8b57-4c87-a4ad-e0000a1e7561" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="cc54edc5-2c62-48e1-b8a1-4a918c15781a" />
+                    </propertyInstance>
+                    <elementDefinition Id="b3a545f3-5e8f-4892-9708-71b1836e7266" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a195afcd-2eeb-4ba0-95ff-be441dd341b4">
+                    <propertyInstance Id="27d59e3f-d782-439c-84bf-3615ea9326a4" name="params" value="false">
+                      <elementDefinition Id="5c965955-46e5-419a-935f-da9d21a53b5c" />
+                    </propertyInstance>
+                    <elementDefinition Id="16b5db90-403f-41b1-88df-3fec4dc06860" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="c9a30ef9-e3da-4a86-a6fa-3991642ef246" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2b7b9c16-8179-4162-9500-f66f8811b5a6" name="estado" direction="In">
+                  <referencesInternal>
+                    <reference Id="5bcd4099-675a-4ccb-8961-61e66dc2229d" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento Member%3D(Name%3DsetMarcadorPagina OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Destado" tag="ViewCode">
+                      <elementDefinition Id="5c6aeec5-ac8f-47ed-93d3-35b1c2d91e2b" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="6d24d4b1-4acf-46b8-9ee2-cdb8a9faa8d9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6df5c4e0-505e-4866-831b-10d59947aace" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e4d84cee-001a-4aa2-bc3e-adb424966b31" name="getMarcadorPagina" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="40607df2-6d93-455b-bb1c-5c7ccc3891c7" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FProyecto Patrones%2FPatronMemento%2FAppPatronMemento%2Fbin%2FDebug%2FAppPatronMemento.exe&quot; Namespace%3DAppPatronMemento.Model Type%3DMemento Member%3DgetMarcadorPagina" tag="ViewCode">
+                <elementDefinition Id="72c7c252-8458-469e-bc45-45e3aa805e3f" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="442d6407-249a-4d88-b855-5ffb8c9b50f2" name="method" profile="CSharpProfile">
+                <elementDefinition Id="1b5cb74f-a759-4971-9594-cd9c2877df4e" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c72d8c8a-fb9b-410f-b78f-b66ab959d275">
+                    <propertyInstance Id="b409cd52-00e7-4bd9-bc36-c010a74653d5" name="ClrAttributes">
+                      <elementDefinition Id="b8d02840-8ecf-4898-bb7f-09fee8b81d89" />
+                    </propertyInstance>
+                    <elementDefinition Id="3c1bc256-080b-4f80-8d47-3b72ae669d23" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="10964a9c-49c7-4a16-9c25-eb59f6fe90c1">
+                    <propertyInstance Id="710f0a74-e235-4242-a424-ca50dfbdff9b" name="IsPartial" value="false">
+                      <elementDefinition Id="65d5c33d-93d5-4cc7-b3f2-3d36bf06eefd" />
+                    </propertyInstance>
+                    <elementDefinition Id="ffca04d8-407f-42b8-93af-2adc026cb537" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="09ab0cdb-5ec5-461a-b64a-b1e1a8987312">
+                    <propertyInstance Id="f4b71cc0-533c-4d3a-835d-bbaf01794bed" name="IsUnsafe" value="false">
+                      <elementDefinition Id="3bcd6259-9d2c-4035-a4de-7f10b2cddce1" />
+                    </propertyInstance>
+                    <elementDefinition Id="3ea425de-82cc-4af0-9071-f5324da2db5b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2c0a049f-ca8f-46d0-af33-7f7e22f121c6">
+                    <propertyInstance Id="7fd4cc21-0a24-4741-8398-e47c70032dc4" name="Inheritance" value="none">
+                      <elementDefinition Id="18178ffb-1c04-4906-9813-fc3717c29f9e" />
+                    </propertyInstance>
+                    <elementDefinition Id="93ed1035-c69b-4bc1-aa09-a7a421289b2d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="905c63a3-75b5-499e-bc5d-7a0e402c9397">
+                    <propertyInstance Id="60341d15-4f8d-4641-8161-c36802bb03dc" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f2a2e71a-10f0-4bb9-b18a-ac33377a3090" />
+                    </propertyInstance>
+                    <elementDefinition Id="a0adf3dc-315a-4b80-9292-098ac850f1c8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="51390e00-3f19-4c4f-a64e-6d3652843717">
+                    <propertyInstance Id="47b64d42-4fd6-432c-ab7a-25d02279a913" name="params" value="false">
+                      <elementDefinition Id="687ebe27-9001-4fcf-812f-b9417f2e1f22" />
+                    </propertyInstance>
+                    <elementDefinition Id="0923eafe-6642-4073-b3ac-a76512d75c64" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="47e10357-67e8-499b-bc91-bfb52b7b61e2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5a4e86c3-d747-4e80-b5f4-e43b83aafabe" direction="Return">
+                  <elementDefinition Id="9ab91fe1-6f8d-4be7-9b4d-e8ce295c36c7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6df5c4e0-505e-4866-831b-10d59947aace" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="b7331fee-8ac8-41bc-a297-72141dc79389" name="Modelado">
+    <elementDefinition Id="98611f5c-3092-4e9c-812a-42a22880ec4b" />
+  </package>
+</logicalClassDesignerModel>
